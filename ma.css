@@ -1,0 +1,93 @@
+.card-area {
+    display: flex;
+    flex-wrap: wrap;
+}
+.card {
+    width:450px;
+    min-height:100px;
+    background-color:white;
+    border:5px #A0AEC0;
+    border-radius: 15px;
+    margin:16px;
+}
+.name {
+    font-weight:bold;
+    margin: 0 0 4px 0;
+}
+.job {
+    color:grey;
+}
+.avatar {
+    width:240px;
+    height:250px;
+}
+.info {
+    display:flex;
+    justify-content: space-between;
+    padding:32px;
+    align-items: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+.card:hover {
+    box-shadow: 0 50px 16px 0 rgba(0, 0, 0, 0.16);
+}
+.button:hover {
+    background-color: #4A5568;
+    color:white;
+}
+.background-color {
+    background-color: #ff3445;
+}
+.star {
+    position: absolute;
+    margin:389px;
+    height:300px;
+}
+.star2 {
+    position: absolute;
+    margin:389px;
+    height:300px;
+}
+.star3 {
+    position: absolute;
+    margin:389px;
+    height:300px;
+}
+.star4 {
+    position: absolute;
+    margin:389px;
+    height:300px;
+}
+.star5 {
+    position: absolute;
+    margin:389px;
+    height:300px;
+}
+.star6 {
+    position: absolute;
+    margin:389px;
+    height:300px;
+}
+.star7 {
+    position: absolute;
+    margin:389px;
+    height:300px;
+}
+.star8 {
+    position: absolute;
+    margin:389px;
+    height:300px;
+}
+.star9 {
+    position: absolute;
+    margin:389px;
+    height:300px;
+}
+.star10 {
+    position: absolute;
+    margin:380px;
+    height:300px;
+}

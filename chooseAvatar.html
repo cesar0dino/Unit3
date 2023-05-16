@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="wa.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<div class="container">
+    <div class="content">
+        <p>dfiufhfgihiosnviuehiufqhjiuhjgiusohoidfuyguhkjhviuhiuihghfia
+            fdhgfduguoipdfugudiofjgsdhoipjhboihfduoishjoihuoicvhjbodhposu
+            aipoudsfgfjdasoipgjoicbj8oipu8rujiobhdiupfayugiuhdbhipudyhguhy
+        </p>
+        <div class="row">
+            <h3>Background</h3>
+            <input type="color" id="bg" value="#FFFFFF">
+        </div>
+        <div class="row">
+            <h3>Text</h3>
+            <input type="color" id="txt">
+        </div>
+        <button id="clear">CLEAR</button>
+    </div>
+</div>
+
+<script>
+    const content = document.querySelector('.content');
+    const bg = document.getElementById('bg');
+    const txt = document.getElementById('txt');
+    const clear = document.getElementById('clear');
+
+
+    bg.addEventListener('change', function(e){
+        content.style.backgroundColor = e.target.value;
+    });
+
+    txt.addEventListener('change', function(e){
+        content.style.color =e.target.value;
+    });
+
+    clear.addEventListener('click', function(e){
+        content.style.backgroundColor = 'white';
+        bg.value = '#FFFFFF';
+        content.style.color = 'black';
+        txt.value = '#000000';
+    });
+
+</script>
+
+<div class="background-color">
+    <div class="card-area">
+        <div class="card">
+            <div class="info">
+                <div class="details">
+                    <div class="name"> Mario</div>
+                    <div class="job"> Mario is a character created by Japanese video game designer Shigeru Miyamoto.</div>
+                </div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://play.nintendo.com/images/Masthead_Mario_HeroPose-updated2021.b19a16e5.ed4a1562.png" alt="character">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <div class="details">
+                    <div class="name"> Luigi</div>
+                    <div class="job">Luigi is a fictional character featured in video games and related media released by Nintendo.</div>
+                </div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://play.nintendo.com/images/Masthead_luigi.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png" alt="character">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <div class="details">
+                    <div class="name"> Princess Peach </div>
+                    <div class="job">Princess Peach Toadstool is a fictional character in Nintendo's Mario franchise.</div>
+                </div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://play.nintendo.com/images/Masthead_Peach.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png" alt="character">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <div class="details">
+                    <div class="name"> Princess Daisy</div>
+                    <div class="job">Princess Daisy is a fictional character in the Mario series of video games.</div>
+                </div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://play.nintendo.com/images/Masthead_Daisy.06328198.0a17f5ff.png" alt="character">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <div class="details">
+                    <div class="name"> Toad</div>
+                    <div class="job">Toad, known in Japan as Kinopio, is a fictional character who primarily appears in Nintendo's Mario franchise.</div>
+                </div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://upload.wikimedia.org/wikipedia/en/d/d1/Toad_3D_Land.png" alt="character">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <div class="details">
+                    <div class="name"> Wario</div>
+                    <div class="job">Wario is a fictional character in Nintendo's Mario series, designed as an arch-rival to Mario.</div>
+                </div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://upload.wikimedia.org/wikipedia/en/8/81/Wario.png" alt="character">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <div class="details">
+                    <div class="name"> Waluigi</div>
+                    <div class="job">Waluigi is a fictional character in the Mario franchise. </div>
+                </div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://play.nintendo.com/images/Masthead-Waluigi.17345b15.9afde10b.png" alt="character">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <div class="details">
+                    <div class="name"> Donkey Kong</div>
+                    <div class="job">Monkey </div>
+                </div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://upload.wikimedia.org/wikipedia/en/d/d4/Donkey_Kong_character.png" alt="character">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <div class="details">
+                    <div class="name"> Bowser</div>
+                    <div class="job">Bowser, or King Koopa, is a fictional character, the primary antagonist in Nintendo's Mario franchise, and the arch-nemesis of Mario. </div>
+                </div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://upload.wikimedia.org/wikipedia/en/9/92/Bowser_Stock_Art_2021.png" alt="character">
+                </div>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="info">
+                <div class="details">
+                    <div class="name"> Yoshi</div>
+                    <div class="job">Yoshi is a fictional dinosaur who appears in video games published by Nintendo. Yoshi debuted in Super Mario World on the Super Nintendo Entertainment System as Mario and Luigi's sidekick. </div>
+                </div>
+                <div class="avatar-container">
+                    <img class="avatar" src="https://play.nintendo.com/images/Masthead_yoshi.17345b1513ac044897cfc243542899dce541e8dc.9afde10b.png" alt="character">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
